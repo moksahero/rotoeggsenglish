@@ -1,14 +1,22 @@
 <!doctype html>
-<html>
+<html lang="en">
+
 	<head>
 		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+		<title>reveal.js – The HTML Presentation Framework</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css">
+		<link rel="stylesheet" href="css/theme/black.css" id="theme">
 
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="lib/css/monokai.css">
@@ -21,30 +29,159 @@
 			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
 			document.getElementsByTagName( 'head' )[0].appendChild( link );
 		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
 	</head>
+
 	<body>
+
 		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+				<section>
+					<h1>Reveal.js</h1>
+					<h3>The HTML Presentation Framework</h3>
+					<p>
+						<small>Created by <a href="http://hakim.se">Hakim El Hattab</a> and <a href="https://github.com/hakimel/reveal.js/graphs/contributors">contributors</a></small>
+					</p>
+				</section>
+
+				<section>
+					<h3>天野の紹介</h3>
+					<p class="fragment">広島出身</p>
+					<p class="fragment">カナダモントリオールのコンコーディア大学をCSと経済学の学位を取得して卒業</p>
+					<p class="fragment">GengoやPayPalや電通で働く</p>
+					<p class="fragment">eBay出品ツールNijuyonを開発して、世界中を旅しながら仕事</p>
+					<p class="fragment">2019年11月からアムステルダム在住</p>
+					<p class="fragment">日本に帰りたいけど帰れない...</p>
+				</section>
+
+				<section>
+					<h3>英語を学習する意味</h3>
+					<p class="fragment">特に説明は無いと思います</p>
+					<p class="fragment">技術だけだと将来性に問題あり</p>
+					<p class="fragment">外資系に入れたりする</p>
+					<p class="fragment">オフィショアのエンジニアと一緒に仕事できる</p>
+					<p class="fragment">最新の情報を英語でキャッチ</p>
+				</section>
+
+				<section>
+					<h3>英語ができない事でふるいにかかっている</h3>
+					<p class="fragment">面接の場で漢字できない人が来る</p>
+					<p class="fragment">でも仕事をがんばってやると言っている</p>
+					<p class="fragment">当然面接は落ちる</p>
+					<p class="fragment">漢字 -> 英語に置き換えてください</p>
+					<p class="fragment">英語ができないと世界相手には門前払い</p>
+				</section>
+
+				<section>
+					<h3>英語の勉強法</h3>
+					<p class="fragment">スピードラーニングはありません</p>
+					<p class="fragment">本を読んで、理論を理解してもプログラムできるようにならない</p>
+					<p class="fragment">英語も一緒</p>
+					<p class="fragment">間違ってもいい、バグを出してもいい</p>
+					<p class="fragment">場数を増やさないとできるようにならないです</p>
+				</section>
+
+				<section>
+					<h3>天野の仕事のやり方</h3>
+					<p class="fragment">ウクライナの開発会社とのブリッジ</p>
+					<p class="fragment">クライアント様は日本が多い</p>
+					<p class="fragment">オランダの会社と仕事の仕事を増やさないといけない...</p>
+				</section>
+
+				<section>
+					<h3>リーディング</h3>
+					<p class="fragment">読む量を増やす</p>
+					<p class="fragment">興味のある内容で読む量を増やす</p>
+					<p class="fragment">
+						・技術系ブログ
+						・ドキュメント
+						・ニュースサイト
+					</p>
+					<p class="fragment">いろんな記事などを一緒に読んでみよう</p>
+				</section>
+
+				<section>
+					<h3>ライティング</h3>
+					<p class="fragment">書く量を増やす</p>
+					<p class="fragment">
+						・commit message
+						・slackでのやり取り
+						・stackoverflowに質問してみる
+					</p>
+					<p>もろもろ添削します</p>
+				</section>
+
+				<section>
+					<h3>リスニング</h3>
+					<p class="fragment">聞く量を増やす</p>
+					<p class="fragment">
+						・カンファレンスの動画<br>
+						・チュートリアルの動画<br>
+						・podcast
+					</p>
+					<p>聞いた感想やおもしろかったポイントを発表</p>
+				</section>
+
+				<section>
+					<h3>スピーキング</h3>
+					<p class="fragment">話す量を増やす</p>
+					<p class="fragment">
+						・オンライン英会話 -> 続けると自身が付く<br>
+						・ウクライナの英語教師とのセッション<br>
+						・エンジニアと会話<br>
+					</p>
+					<p>いっぱい失敗して慣れてください</p>
+				</section>
+
+				<section>
+					<h3>Roto Eggs Englishについて</h3>
+					<p class="fragment">エンジニア教育プログラム</p>
+					<p class="fragment">無料で参加できます (今のところは)</p>
+					<p class="fragment">仲間と一緒に英語の勉強ができます</p>
+					<p class="fragment">天野と小林が茶々入れます</p>
+				</section>
+
+				<section>
+					<h3>英語学校との違い</h3>
+					<p class="fragment">ITに特化</p>
+					<p class="fragment">文字のコミュニケーションはあまりやらない</p>
+					<p class="fragment">他のエンジニアと繋がる</p>
+				</section>
+
 			</div>
+
 		</div>
 
 		<script src="js/reveal.js"></script>
 
 		<script>
-			// More info about config & dependencies:
-			// - https://github.com/hakimel/reveal.js#configuration
-			// - https://github.com/hakimel/reveal.js#dependencies
+
+			// More info https://github.com/hakimel/reveal.js#configuration
 			Reveal.initialize({
+				controls: true,
+				progress: true,
+				center: true,
 				hash: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
 				dependencies: [
-					{ src: 'plugin/markdown/marked.js' },
-					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
 					{ src: 'plugin/highlight/highlight.js' },
+					{ src: 'plugin/search/search.js', async: true },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
 					{ src: 'plugin/notes/notes.js', async: true }
 				]
 			});
+
 		</script>
+
 	</body>
 </html>
